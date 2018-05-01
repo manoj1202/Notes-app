@@ -8,6 +8,7 @@
 // Query and remove all elements
 const ps = document.querySelectorAll('p');
 ps.forEach(function(p){
-   // p.remove();
-   console.log(p.textContent);
+   p.textContent = '*************____________**************'
+    // p.remove();
+   // console.log(p.textContent);
 })
