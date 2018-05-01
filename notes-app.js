@@ -1,1 +1,4 @@
-console.log('This is from  Different File ');
+//DOm -- Document Object Model
+
+const p =  document.querySelector('p');
+p.remove();
